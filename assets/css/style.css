@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*utitlity*/
+.container-80{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h-400{
+    height: 400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.col-pink{
+    background-color: pink;
+}
+
+.col-blue{
+    background-color: lightblue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+/* .bg-gray{
+    background-color: lightgray;
+} */
+
+.order-1{
+    order: 1;
+}
+
+.order-2{
+    order: 2;
+}
+
+header{
+    background-color: blue;
+    padding-bottom: 20px;
+}
+
+nav{
+    background-color: lightblue;
+    padding: 10px 0;
+}
+
+nav div{
+    background-color: lightgoldenrodyellow;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+nav div ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#intro-discord div{
+    background-color: pink;
+    margin-top: 20px;
+}
+
+.col-70{
+    flex-basis: 70%;
+}
+
+.col-30{
+    flex-basis: 30%;
+}
+
+main section {
+    padding: 20px 0;
+}
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+footer{
+    background-color: #0d0d0d;
+    padding: 20px 0;
+}
+
+footer #footer-top > div{
+    background-color: lightseagreen;
+    flex-basis: calc(60% / 4);
+    border: 1px dashed white;
+}
+
+footer #footer-top div:first-child{
+    background-color: lightcoral;
+    flex-basis: 40%;
+}
+
+footer #footer-social{
+    justify-content: space-between;
+
+}
+
+footer section a{
+    color: white;
+}
+
+hr{
+    margin: 20px 0;
+}
+
